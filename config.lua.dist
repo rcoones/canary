@@ -290,7 +290,7 @@ teleportSummons = false
 -- NOTE: true will allow the /reload command to be used
 -- NOTE: Using this script might cause unwanted changes
 -- This script forces a reload in the entire server, this means that everything that is stored in memory might stop to work properly and/or completely, this script should be used in test environments only
-allowReload = false
+allowReload = true
 
 -- Stamina in Trainers
 staminaTrainer = false
@@ -483,11 +483,11 @@ sortLootByChance = false
 -- lowLevelBonusExp works up to level 50
 rateUseStages = false
 lowLevelBonusExp = 50
-rateExp = 1
-rateSkill = 1
-rateLoot = 1
-rateMagic = 1
-rateSpawn = 1
+rateExp = 40
+rateSkill = 10
+rateLoot = 3
+rateMagic = 8
+rateSpawn = 2
 
 -- Killing in the name of Quest
 rateKillingInTheNameOfPoints = 1
